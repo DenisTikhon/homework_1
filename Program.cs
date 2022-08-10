@@ -22,6 +22,14 @@ else {F = D;}
 if (F > E) {Console.WriteLine("Максимальное число "+ F );}
 else {Console.WriteLine("Максимальное число "+ E );}
 }
+//Задача №6
+Console.WriteLine("Введите число");
+int nums = Convert.ToInt32(Console.ReadLine());
+{
+if ((nums % 2) == 0) {
+Console.WriteLine(nums + " Да");}
+else { Console.WriteLine(nums + " Нет");}
+}
 //Задача №8
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
